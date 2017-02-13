@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0F7F631E518C0200ADF313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F7F621E518C0200ADF313 /* AppDelegate.swift */; };
+		ED0F7F651E518C0200ADF313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F7F641E518C0200ADF313 /* ViewController.swift */; };
+		ED0F7F681E518C0200ADF313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0F7F661E518C0200ADF313 /* Main.storyboard */; };
+		ED0F7F6A1E518C0200ADF313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0F7F691E518C0200ADF313 /* Assets.xcassets */; };
+		ED0F7F6D1E518C0200ADF313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0F7F6B1E518C0200ADF313 /* LaunchScreen.storyboard */; };
+		ED0F7F771E518CB800ADF313 /* ZYAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F7F761E518CB800ADF313 /* ZYAnimationLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED0F7F5F1E518C0200ADF313 /* ChineseTranSer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseTranSer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0F7F621E518C0200ADF313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0F7F641E518C0200ADF313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0F7F671E518C0200ADF313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0F7F691E518C0200ADF313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0F7F6C1E518C0200ADF313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED0F7F6E1E518C0200ADF313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0F7F741E518CB700ADF313 /* ChineseTranSer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChineseTranSer-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED0F7F751E518CB800ADF313 /* ZYAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimationLayer.h; sourceTree = "<group>"; };
+		ED0F7F761E518CB800ADF313 /* ZYAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimationLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0F7F5C1E518C0200ADF313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0F7F561E518C0200ADF313 = {
+			isa = PBXGroup;
+			children = (
+				ED0F7F611E518C0200ADF313 /* ChineseTranSer */,
+				ED0F7F601E518C0200ADF313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0F7F601E518C0200ADF313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0F7F5F1E518C0200ADF313 /* ChineseTranSer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0F7F611E518C0200ADF313 /* ChineseTranSer */ = {
+			isa = PBXGroup;
+			children = (
+				ED0F7F621E518C0200ADF313 /* AppDelegate.swift */,
+				ED0F7F751E518CB800ADF313 /* ZYAnimationLayer.h */,
+				ED0F7F761E518CB800ADF313 /* ZYAnimationLayer.m */,
+				ED0F7F641E518C0200ADF313 /* ViewController.swift */,
+				ED0F7F661E518C0200ADF313 /* Main.storyboard */,
+				ED0F7F691E518C0200ADF313 /* Assets.xcassets */,
+				ED0F7F6B1E518C0200ADF313 /* LaunchScreen.storyboard */,
+				ED0F7F6E1E518C0200ADF313 /* Info.plist */,
+				ED0F7F741E518CB700ADF313 /* ChineseTranSer-Bridging-Header.h */,
+			);
+			path = ChineseTranSer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0F7F5E1E518C0200ADF313 /* ChineseTranSer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0F7F711E518C0200ADF313 /* Build configuration list for PBXNativeTarget "ChineseTranSer" */;
+			buildPhases = (
+				ED0F7F5B1E518C0200ADF313 /* Sources */,
+				ED0F7F5C1E518C0200ADF313 /* Frameworks */,
+				ED0F7F5D1E518C0200ADF313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseTranSer;
+			productName = ChineseTranSer;
+			productReference = ED0F7F5F1E518C0200ADF313 /* ChineseTranSer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0F7F571E518C0200ADF313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lotawei;
+				TargetAttributes = {
+					ED0F7F5E1E518C0200ADF313 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZHT99R3SEW;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED0F7F5A1E518C0200ADF313 /* Build configuration list for PBXProject "ChineseTranSer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0F7F561E518C0200ADF313;
+			productRefGroup = ED0F7F601E518C0200ADF313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0F7F5E1E518C0200ADF313 /* ChineseTranSer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0F7F5D1E518C0200ADF313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0F7F6D1E518C0200ADF313 /* LaunchScreen.storyboard in Resources */,
+				ED0F7F6A1E518C0200ADF313 /* Assets.xcassets in Resources */,
+				ED0F7F681E518C0200ADF313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0F7F5B1E518C0200ADF313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0F7F651E518C0200ADF313 /* ViewController.swift in Sources */,
+				ED0F7F631E518C0200ADF313 /* AppDelegate.swift in Sources */,
+				ED0F7F771E518CB800ADF313 /* ZYAnimationLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED0F7F661E518C0200ADF313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0F7F671E518C0200ADF313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0F7F6B1E518C0200ADF313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0F7F6C1E518C0200ADF313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0F7F6F1E518C0200ADF313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0F7F701E518C0200ADF313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0F7F721E518C0200ADF313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZHT99R3SEW;
+				INFOPLIST_FILE = ChineseTranSer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lotawei.cn.ChineseTranSer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChineseTranSer/ChineseTranSer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED0F7F731E518C0200ADF313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZHT99R3SEW;
+				INFOPLIST_FILE = ChineseTranSer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lotawei.cn.ChineseTranSer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChineseTranSer/ChineseTranSer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0F7F5A1E518C0200ADF313 /* Build configuration list for PBXProject "ChineseTranSer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0F7F6F1E518C0200ADF313 /* Debug */,
+				ED0F7F701E518C0200ADF313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0F7F711E518C0200ADF313 /* Build configuration list for PBXNativeTarget "ChineseTranSer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0F7F721E518C0200ADF313 /* Debug */,
+				ED0F7F731E518C0200ADF313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0F7F571E518C0200ADF313 /* Project object */;
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChineseTranSer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJC-Jf-yRz">
+                                <rect key="frame" x="51" y="44" width="273" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Gy7-fo-qft">
+                                <rect key="frame" x="119" y="82" width="137" height="29"/>
+                                <segments>
+                                    <segment title="带音标"/>
+                                    <segment title="不带音标"/>
+                                </segments>
+                                <connections>
+                                    <action selector="sgchange:" destination="BYZ-38-t0r" eventType="valueChanged" id="zoU-jL-bbw"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soA-5q-2XA">
+                                <rect key="frame" x="337" y="44" width="30" height="30"/>
+                                <state key="normal" title="go"/>
+                                <connections>
+                                    <action selector="end:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YzG-EN-gAq"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EDJ-RS-2eu">
+                                <rect key="frame" x="51" y="124" width="273" height="216"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="soA-5q-2XA" firstAttribute="leading" secondItem="fJC-Jf-yRz" secondAttribute="trailing" constant="13" id="1sB-fx-xOy"/>
+                            <constraint firstItem="Gy7-fo-qft" firstAttribute="top" secondItem="fJC-Jf-yRz" secondAttribute="bottom" constant="8" symbolic="YES" id="3KN-kJ-R6r"/>
+                            <constraint firstItem="EDJ-RS-2eu" firstAttribute="leading" secondItem="fJC-Jf-yRz" secondAttribute="leading" id="6Y6-yX-IJV"/>
+                            <constraint firstItem="fJC-Jf-yRz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="7Nz-dR-UPm"/>
+                            <constraint firstItem="EDJ-RS-2eu" firstAttribute="top" secondItem="Gy7-fo-qft" secondAttribute="bottom" constant="14" id="EYP-Rl-GSa"/>
+                            <constraint firstItem="EDJ-RS-2eu" firstAttribute="trailing" secondItem="fJC-Jf-yRz" secondAttribute="trailing" id="OsV-fd-DO2"/>
+                            <constraint firstItem="fJC-Jf-yRz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="R4U-cj-eGb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EDJ-RS-2eu" secondAttribute="bottom" constant="327" id="iXa-fC-S6B"/>
+                            <constraint firstItem="fJC-Jf-yRz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pTz-og-ldj"/>
+                            <constraint firstItem="fJC-Jf-yRz" firstAttribute="top" secondItem="soA-5q-2XA" secondAttribute="top" id="uV8-2K-6YX"/>
+                            <constraint firstItem="fJC-Jf-yRz" firstAttribute="centerX" secondItem="Gy7-fo-qft" secondAttribute="centerX" id="z3w-sA-GRg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="outputview" destination="EDJ-RS-2eu" id="dVY-sS-JPf"/>
+                        <outlet property="sgment" destination="Gy7-fo-qft" id="WJn-cG-hqR"/>
+                        <outlet property="txtinput" destination="fJC-Jf-yRz" id="qDP-5g-iRI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
