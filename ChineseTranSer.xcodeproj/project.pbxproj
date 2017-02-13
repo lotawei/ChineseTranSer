@@ -13,6 +13,7 @@
 		ED0F7F6A1E518C0200ADF313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0F7F691E518C0200ADF313 /* Assets.xcassets */; };
 		ED0F7F6D1E518C0200ADF313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0F7F6B1E518C0200ADF313 /* LaunchScreen.storyboard */; };
 		ED0F7F771E518CB800ADF313 /* ZYAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F7F761E518CB800ADF313 /* ZYAnimationLayer.m */; };
+		ED0F7F791E51AB7400ADF313 /* gitf.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED0F7F781E51AB7400ADF313 /* gitf.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ED0F7F741E518CB700ADF313 /* ChineseTranSer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChineseTranSer-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED0F7F751E518CB800ADF313 /* ZYAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAnimationLayer.h; sourceTree = "<group>"; };
 		ED0F7F761E518CB800ADF313 /* ZYAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAnimationLayer.m; sourceTree = "<group>"; };
+		ED0F7F781E51AB7400ADF313 /* gitf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gitf.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		ED0F7F611E518C0200ADF313 /* ChineseTranSer */ = {
 			isa = PBXGroup;
 			children = (
+				ED0F7F781E51AB7400ADF313 /* gitf.gif */,
 				ED0F7F621E518C0200ADF313 /* AppDelegate.swift */,
 				ED0F7F751E518CB800ADF313 /* ZYAnimationLayer.h */,
 				ED0F7F761E518CB800ADF313 /* ZYAnimationLayer.m */,
@@ -134,6 +137,7 @@
 			files = (
 				ED0F7F6D1E518C0200ADF313 /* LaunchScreen.storyboard in Resources */,
 				ED0F7F6A1E518C0200ADF313 /* Assets.xcassets in Resources */,
+				ED0F7F791E51AB7400ADF313 /* gitf.gif in Resources */,
 				ED0F7F681E518C0200ADF313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +320,7 @@
 				ED0F7F731E518C0200ADF313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
